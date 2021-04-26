@@ -13,6 +13,30 @@ Run other R code under the `code/` folder to generate portraits in different sty
 
 ### File organization
 Below is an overview of the file organization in this repository.
+```
+root
+├── code
+│   ├── 01_ascii.R
+│   ├── 02_bspline.R
+│   ├── 03_ridge.R
+│   └── 04_tanaka.R
+├── DESCRIPTION
+├── image
+│   ├── ashild.jpg
+│   └── trond.jpg
+├── LICENSE
+├── output
+│   ├── ascii-ashild.png
+│   ├── ascii-trond.png
+│   ├── bspl-ashild.png
+│   ├── bspl-trond.png
+│   ├── ridge-ashild.png
+│   ├── ridge-trond.png
+│   ├── tanaka-ashild.png
+│   └── tanaka-trond.png
+├── portraitr.Rproj
+└── README.md
+```
 
 ### Acknowledgements
 The code used for generating portraits is largely taken from the [gkaramanis/aRtist](https://github.com/gkaramanis/aRtist) repository under the MIT license. 
