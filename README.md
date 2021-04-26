@@ -1,3 +1,7 @@
+<!-- badges: start -->
+[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yanxianl/portraitr/master?urlpath=rstudio)
+<!-- badges: end -->
+
 # Creat portraits from photos in R
 This is a GitHub repository for recreating portraits that I used as gifts for my PhD mentors, Dr. Åshild Krogdahl and Dr. Trond M. Kortner, after I defended my thesis.  
 

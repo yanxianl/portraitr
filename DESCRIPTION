@@ -1,0 +1,22 @@
+Type: Compendium
+Package: portraitr
+Title: Creat Portraits from Photos in R
+Version: 0.0.1
+Authors@R: 
+    person(given = "Yanxian",
+           family = "Li",
+           role = c("aut", "cre"),
+           email = "yanxian_li@163.com")
+Description: Creat portraits from photos in R
+License: MIT
+Depends: 
+    dplyr,
+    ggforce,
+    ggplot2,
+    ggridges,
+    magick,
+    metR,
+    stringr,
+    tidyr
+Encoding: UTF-8
+LazyData: true
