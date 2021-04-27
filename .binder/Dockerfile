@@ -1,4 +1,4 @@
-FROM rocker/binder:4.0.3
+FROM rocker/binder:4.0.0
 LABEL maintainer='Yanxian Li'
 USER root
 COPY . ${HOME}
