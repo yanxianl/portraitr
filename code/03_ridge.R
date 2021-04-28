@@ -33,8 +33,8 @@ lapply(img_names, function(x){
   # Create data frame from array and rename columns
   img_df <- as.data.frame.table(img_array) %>% 
     `colnames<-`(c("y", "x", "b")) %>% 
+    mutate_all(as.numeric) %>%
     mutate(
-      across(everything(), as.numeric),
       n = row_number()
     ) %>%
     filter(n %% 2 == 0)
