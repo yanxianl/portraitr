@@ -39,7 +39,7 @@ root
 ```
 
 ### Acknowledgements
-The code used for generating portraits is largely taken from the [gkaramanis/aRtist](https://github.com/gkaramanis/aRtist) repository under the MIT license. 
+The code used for generating portraits was largely taken from the [gkaramanis/aRtist](https://github.com/gkaramanis/aRtist) repository under the MIT license. 
 The repository is maintained by Georgios Karamanis.
 
 The R package [holepunch](https://karthik.github.io/holepunch/) was used to make this repository [binder](https://mybinder.org/)-ready. 
