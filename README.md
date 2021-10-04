@@ -3,11 +3,10 @@
 <!-- badges: end -->
 
 # Creat portraits from photos in R
-This is a GitHub repository for recreating portraits that I used as gifts for my PhD mentors, Dr. Åshild Krogdahl and Dr. Trond M. Kortner, after I defended my thesis.  
+This is a GitHub repository for recreating portraits that I use as gifts for my PhD mentors, Dr. Åshild Krogdahl and Dr. Trond M. Kortner, after I defend my thesis.  
 
 ### How to regenerate the portraits
-Click the ![Launch Binder](http://mybinder.org/badge_logo.svg) badge located at the top of this README file, 
-which turns this repository into an RStudio instance that has all the dependencies installed. 
+Click the ![Launch Binder](http://mybinder.org/badge_logo.svg) badge located at the top of this README file. It will turn this repository into an RStudio instance that has all the dependencies installed. 
 Run `code/02_bspline.R` in the RStudio instance and the portraits will be created and stored under the `output/` folder. 
 Run other R code under the `code/` folder to generate portraits in different styles. 
 
